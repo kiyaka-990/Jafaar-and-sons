@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #09192E;
+  --navy-mid: #112448;
+  --navy-light: #1A3766;
+  --gold: #B8922A;
+  --gold-bright: #D4AA45;
+  --gold-pale: #F9F3E3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: #fff;
+  color: #1C1816;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #F5F3EE; }
+::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 2px; }
+
+/* Utility: display font */
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Hero carousel fade */
+.carousel-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 1.4s ease;
+}
+
+/* Section reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+/* Service card hover line */
+.svc-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease;
+}
+.svc-card:hover::before {
+  transform: scaleX(1);
+}
+
+/* Port card overlay */
+.port-overlay {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.port-card:hover .port-overlay {
+  opacity: 1;
+}
+.port-card:hover img {
+  transform: scale(1.08);
+}
+
+/* Dot active state */
+.dot-active {
+  width: 26px !important;
+  border-radius: 4px !important;
+  background: var(--gold-bright) !important;
+}
+
+/* Testimonial fade */
+@keyframes testiIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.testi-animate {
+  animation: testiIn 0.7s ease both;
+}
