@@ -123,7 +123,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Google Map */}
+          {/* Google Map — Bruce House, Standard Street, Nairobi */}
           <div
             ref={mapRef}
             className="reveal reveal-delay-2 rounded-2xl overflow-hidden"
@@ -133,7 +133,7 @@ export default function Contact() {
             }}
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.818!2d36.8219!3d-1.2833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d665d1d0b5%3A0x5fd56d3e7c0b9d22!2sBiashara%20Street%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8185!2d36.81825!3d-1.28606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d4b6e1e6b5%3A0x4e2b1234abcd5678!2sBruce%20House%2C%20Standard%20Street%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
               width="100%"
               height="100%"
               style={{ border: 0 }}
