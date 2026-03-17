@@ -173,7 +173,7 @@ export const TESTIMONIALS = [
 export const CONTACT_INFO = [
   {
     label: 'Address',
-    value: 'Yala Towers, Biashara Street, Starehe, Nairobi, Kenya',
+    value: '12th Floor, Bruce House, Standard Street, Starehe, Nairobi, Kenya',
   },
   { label: 'Telephone', value: '+254 710 104 462' },
   { label: 'Email', value: 'virsonlimited@gmail.com' },
