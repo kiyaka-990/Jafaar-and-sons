@@ -304,7 +304,7 @@ export default function Chatbot() {
 
           {/* Footer */}
           <div style={{ textAlign: 'center', padding: '5px', fontSize: 10, color: '#9A9080', background: '#F9F7F2', flexShrink: 0 }}>
-            Jaafar and Son Limited © 2024 · Powered by Jaz AI
+            Jaafar and Son Limited © 2026 · Powered by Jaz AI
           </div>
         </div>
       )}
