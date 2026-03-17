@@ -52,7 +52,7 @@ export default function Footer() {
               {[
                 { icon: '📞', text: '+254 710 104 462' },
                 { icon: '✉️', text: 'virsonlimited@gmail.com' },
-                { icon: '📍', text: 'Yala Towers, Biashara St, Nairobi' },
+                { icon: '📍', text: '12th Floor, Bruce House, Standard Street, Starehe, Nairobi' },
               ].map((c) => (
                 <div
                   key={c.text}

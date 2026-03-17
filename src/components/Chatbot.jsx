@@ -85,7 +85,7 @@ function getResponse(input) {
 
   // ── Contact / location ──
   if (/contact|reach|location|address|where|find you|office|visit|call|email|phone|number/.test(q)) {
-    return `📍 **Contact Jaafar and Son Limited**\n\n**Physical Address:**\nYala Towers, Biashara Street, Starehe, Nairobi\n\n**Postal Address:**\nP.O. Box 38631, 00100 G.P.O. Nairobi\n\n📞 **Phone:** +254 710 104 462\n✉️ **Email:** virsonlimited@gmail.com\n\n**Business Hours:**\nMon – Fri: 8:00 AM – 5:00 PM\nSaturday: 9:00 AM – 1:00 PM\n\nWe're happy to arrange a site visit! 🤝`
+    return `📍 **Contact Jaafar and Son Limited**\n\n**Physical Address:**\n12th floor, Bruce House,Standard Street, Starehe, Nairobi\n\n**Postal Address:**\nP.O. Box 38631, 00100 G.P.O. Nairobi\n\n📞 **Phone:** +254 710 104 462\n✉️ **Email:** virsonlimited@gmail.com\n\n**Business Hours:**\nMon – Fri: 8:00 AM – 5:00 PM\nSaturday: 9:00 AM – 1:00 PM\n\nWe're happy to arrange a site visit! 🤝`
   }
 
   // ── Registration / legal ──
