@@ -80,7 +80,7 @@ function getResponse(input) {
 
   // ── Quote / pricing ──
   if (/quote|price|cost|how much|charge|rate|fee|estimate|bid|tender|proposal/.test(q)) {
-    return `💰 **Get a Free Quote**\n\nAll quotes are **customised** based on:\n• Project scope and specifications\n• Quantities required\n• Location and delivery\n• Timeline\n\nTo get your free, no-obligation quote:\n\n📞 **Call:** +254 710 104 462\n✉️ **Email:** virsonlimited@gmail.com\n📍 **Visit:** Yala Towers, Biashara Street, Starehe, Nairobi\n\nWe respond within **24 hours** — urgent? Call us directly! 🚀`
+    return `💰 **Get a Free Quote**\n\nAll quotes are **customised** based on:\n• Project scope and specifications\n• Quantities required\n• Location and delivery\n• Timeline\n\nTo get your free, no-obligation quote:\n\n📞 **Call:** +254 710 104 462\n✉️ **Email:** virsonlimited@gmail.com\n📍 **Visit:** 12th floor,Bruce House, Standard Street, Starehe, Nairobi\n\nWe respond within **24 hours** — urgent? Call us directly! 🚀`
   }
 
   // ── Contact / location ──
