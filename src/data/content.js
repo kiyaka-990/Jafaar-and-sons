@@ -1,18 +1,18 @@
 export const SLIDES = [
   {
-    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80',
+    img: '/images/hero-5.jpg',
     label: 'Road Construction',
   },
   {
-    img: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1600&q=80',
+    img: '/images/hero-2.jpg',
     label: 'Building Works',
   },
   {
-    img: 'https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=1600&q=80',
+    img: '/images/hero-3.jpg',
     label: 'General Supplies',
   },
   {
-    img: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1600&q=80',
+    img: '/images/hero3.jpg',
     label: 'Infrastructure',
   },
 ]
