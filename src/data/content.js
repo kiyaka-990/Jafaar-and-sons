@@ -59,47 +59,47 @@ export const SERVICES = [
 
 export const PORTFOLIO = [
   {
-    img: 'https://images.unsplash.com/photo-1503594384566-461fe158e797?w=700&q=80',
+    img: '/images/roads.jpg',
     title: 'Nairobi Road Rehab',
     cat: 'roads',
   },
   {
-    img: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=700&q=80',
+    img: '/images/project-2.jpeg',
     title: 'Commercial Block, CBD',
     cat: 'buildings',
   },
   {
-    img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=700&q=80',
+    img: '/images/project-3.jpg',
     title: 'Office Furniture Supply',
     cat: 'supplies',
   },
   {
-    img: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80',
+    img: '/images/project-4.jpg',
     title: 'Highway Expansion',
     cat: 'roads',
   },
   {
-    img: 'https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=700&q=80',
+    img: '/images/project-5.jpg',
     title: 'Water Pipeline, Starehe',
     cat: 'infra',
   },
   {
-    img: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=80',
+    img: '/images/project-6.jpg',
     title: 'School Building, Kibera',
     cat: 'buildings',
   },
   {
-    img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80',
+    img: '/images/project-7.jpg',
     title: 'IT Equipment Supply',
     cat: 'supplies',
   },
   {
-    img: 'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=700&q=80',
+    img: '/images/project-8.jpg',
     title: 'Bridge Construction',
     cat: 'infra',
   },
   {
-    img: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=700&q=80',
+    img: '/images/hero-3.jpg',
     title: 'Residential Complex',
     cat: 'buildings',
   },

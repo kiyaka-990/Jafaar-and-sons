@@ -65,7 +65,7 @@ export function About() {
           <RevealBox>
             <div className="relative rounded-2xl overflow-hidden h-[460px]">
               <img
-                src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=900&q=80"
+                src="/images/about-2.jpg"
                 alt="Jaafar and Son team on site"
                 className="w-full h-full object-cover"
               />
